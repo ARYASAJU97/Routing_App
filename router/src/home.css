@@ -1,0 +1,51 @@
+/*.mainPage{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+.mainPage button{
+    font-size: 24px;
+    text-align: center;
+    background: aqua;
+}
+.mainPage button :hover{
+ background: black;
+}*/
+body{
+  background-color: gray;
+}
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    
+  }
+  .ima1{
+    background:url("./Assets/calculator-icon-21.png") no-repeat center ;
+    height: 30vh;
+    width: 300px;
+  }
+  .ima2{
+    background:url("./Assets/weather-app-logo.png") no-repeat center ;
+    height: 30vh;
+    width: 280px;
+    padding-left: 20px;
+  }
+  .mainPage button{
+    font-size: 15px;
+  }
+  
+  .weatherButton {
+    margin-top: 10px;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  
+ 

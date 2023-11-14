@@ -1,0 +1,92 @@
+.calc {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+  }
+  .icons{
+    width: 100%;
+    text-align: end;
+  }
+  .head{
+    text-align: start;
+    font-size: 12px;
+    margin: 0;
+    font-style: normal;
+  }
+ .standard{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .history{
+    text-align: end;
+    overflow:hidden;
+    background-color: #eee;
+    height: 30px;
+  }
+  .display {
+    width: 95%;
+    height: 48px;
+    text-align: right;
+    font-size: 40px;
+    padding: 8px;
+    background-color:#eee;
+    border-radius: 5px;
+    overflow: hidden;
+    font-style: bold;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .col {
+    width: 76px;
+    height: 55px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .symbol {
+    background-color:rgb(6, 93, 215);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 53px;
+    width: 71px;
+  }
+  
+  .col:hover {
+    background-color: #ece4e4;
+  }
+  
+  .clear {
+    background-color: #ff6666;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .clear:hover {
+    background-color: #ff3333;
+  }
